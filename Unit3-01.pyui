@@ -1,0 +1,88 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 16}, {351, 69}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "guess_number_question_label",
+          "frame" : "{{266, 281}, {150, 32}}",
+          "uuid" : "218AC064-7243-42F5-B8DF-7F4E223ABB15",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the number of Students",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{40, 142}, {228, 62}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "input_of_number_textbox",
+          "frame" : "{{241, 281}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "9CA2B39B-56D6-4EDE-B30C-2E2F783526C1",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{69, 249}, {80, 43}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "check_number_touch_up_inside",
+          "frame" : "{{301, 281}, {80, 32}}",
+          "title" : "Check",
+          "uuid" : "A9514012-27DB-4B72-9B28-1E05FE191A63",
+          "class" : "Button",
+          "name" : "check_button",
+          "font_size" : 15
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{40, 341}, {150, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "check_answer_label",
+          "frame" : "{{266, 281}, {150, 32}}",
+          "uuid" : "A1E099C3-B47D-4A55-AFF2-2634E31CA462",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {682, 594}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
